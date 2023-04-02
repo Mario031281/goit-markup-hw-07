@@ -115,7 +115,7 @@
 	.hero {
 		padding-bottom: 112px;
 		padding-top: 112px;
-		max-width: 766px;
+		/* max-width: 766px; */
 		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tabletbg.jpg);
 	}
 	.hero-title {
@@ -163,8 +163,8 @@
 	.team-list {
 		display: flex;
 		flex-direction: row;
-		row-gap: 24px;
-		column-gap: 64px;
+		row-gap: 64px;
+		column-gap: 24px;
 		flex-basis: calc((100%-24px) / 2);
 	}
 	.footer-descr {
