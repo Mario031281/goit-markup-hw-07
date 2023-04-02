@@ -149,6 +149,10 @@
 		justify-content: space-between;
 		gap: 72px 24px;
 	}
+	.modal {
+		width: 408px;
+		height: 584px;
+	}
 	.descr-item {
 		width: calc((100% - 24px) / 2);
 	}

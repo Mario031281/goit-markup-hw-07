@@ -210,7 +210,7 @@
 	.address-tel {
 		font-style: normal;
 		font-weight: 700;
-		font-size: 36px;
+		font-size: 24px;
 		line-height: 1.11;
 		letter-spacing: 0.02em;
 		text-transform: capitalize;
@@ -265,6 +265,11 @@
 .descr-subtitle {
 	font-size: 36px;
 	margin-bottom: 8px;
+}
+@media screen and (min-width: 430px) {
+	.address-tel {
+		font-size: 36px;
+	}
 }
 /* ===============Our team=============== */
 .our-team {
@@ -506,4 +511,12 @@
 }
 .subscribe-icon {
 	fill: #fff;
+}
+.modal {
+	width: 320px;
+}
+@media screen and (min-width: 400px) {
+	.modal {
+		width: 392px;
+	}
 }
