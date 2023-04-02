@@ -5,6 +5,9 @@
 		margin-right: auto;
 	}
 }
+.body {
+	min-width: 320px;
+}
 .page-header-container {
 	display: flex;
 	align-items: center;
@@ -211,7 +214,7 @@
 		line-height: 1.11;
 		letter-spacing: 0.02em;
 		text-transform: capitalize;
-		color: #434455;
+		color: #4d5ae5;
 		transition: color var(--transition-duration-and-func);
 	}
 	.address-tel:hover,
@@ -452,7 +455,7 @@
 }
 .subscribe-input {
 	/* margin-bottom: 16px; */
-	width: 396px;
+	width: 100%;
 	height: 40px;
 	border: 1px solid #ffffff;
 	border-radius: 4px;
@@ -461,6 +464,11 @@
 	padding: 16px 16px;
 	color: #fff;
 	transition: border-color var(--transition-duration-and-func);
+}
+@media screen and (min-width: 400px) {
+	.subscribe-input {
+		width: 396px;
+	}
 }
 .subscribe-input:is(:hover, :focus) {
 	border-color: #4d5ae5;
