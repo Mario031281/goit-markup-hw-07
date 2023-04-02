@@ -154,14 +154,18 @@
 		align-items: center;
 		width: 24px;
 		height: 24px;
-		/* background-color: #e7e9fc; */
-		background-color: transparent;
+		background-color: #e7e9fc;
+		/* background-color: transparent; */
 		border-radius: 50%;
 		border: none;
 		padding: 0;
 		line-height: 0;
 		border: 1px solid #2e2f42;
+		cursor: pointer;
 		transition: background-color var(--transition-duration-and-func);
+	}
+	.mobile-menu-close-btn.background-color {
+		opacity: 0.1;
 	}
 	.mobile-menu-close-btn:hover,
 	.mobile-menu-close-btn:focus {
