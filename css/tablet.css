@@ -207,3 +207,12 @@
 		padding-bottom: 22px;
 	}
 }
+.footer-logo {
+	display: block;
+	margin-bottom: 16px;
+	line-height: 1.17;
+	color: #4d5ae5;
+}
+.footer-logo-studio {
+	color: #f4f4fd;
+}

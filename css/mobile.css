@@ -1,6 +1,6 @@
 @media screen and (min-width: 480px) {
 	.container {
-		max-width: 428px;
+		min-width: 428px;
 		margin-left: auto;
 		margin-right: auto;
 	}
@@ -38,7 +38,7 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin: 0 auto;
-	max-width: 320px;
+	/* max-width: 320px; */
 	background-color: rgba(46, 47, 66, 0.7);
 }
 
