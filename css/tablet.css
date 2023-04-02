@@ -210,6 +210,9 @@
 	.header {
 		padding-bottom: 22px;
 	}
+	.descr-text {
+		font-weight: 500;
+	}
 }
 .footer-logo {
 	display: block;
