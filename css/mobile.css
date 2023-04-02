@@ -195,12 +195,15 @@
 	.header-link:focus {
 		color: var(--accent-color);
 	}
+	.header-link-contacts {
+		color: #404bbf;
+	}
 	.header-list-mob {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
 		gap: 40px;
-		margin-bottom: auto;
+		/* margin-bottom: auto; */
 	}
 	.container-list-contacts {
 		margin-top: auto;
@@ -210,6 +213,7 @@
 		flex-direction: column;
 		align-items: flex-start;
 		gap: 40px;
+		margin-top: auto;
 		margin-bottom: 48px;
 	}
 	.address-tel {
@@ -525,5 +529,11 @@
 @media screen and (min-width: 400px) {
 	.modal {
 		width: 392px;
+	}
+}
+@media screen and (max-width: 479px) {
+	.modal-form-descr-policy {
+		font-size: 8px;
+		letter-spacing: 0.02em;
 	}
 }
