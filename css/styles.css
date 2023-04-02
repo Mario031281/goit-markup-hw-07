@@ -232,6 +232,9 @@ button {
 }
 .modal-form-check {
 }
+.modal-form-descr-policy {
+	display: inline;
+}
 .modal-form-check-link {
 	font-weight: 400;
 	font-size: 12px;
@@ -255,19 +258,19 @@ button {
 	display: block;
 	width: 16px;
 	height: 16px;
-	border-radius: 2px;
+	/* border-radius: 1px; */
 	border: 1px solid #2e2f42;
 	cursor: pointer;
 	content: "";
 	margin-right: 8px;
 }
-.modal-form-check:checked + .modal-form-check-descr::before {
+.modal-form-check:checked + .modal-form-descr-policy > .modal-form-check-descr::before {
 	background-color: var(--accent-color);
 	background-image: url(../images/vector.svg);
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 }
-.modal-form-check:focus + .modal-form-check-descr::before {
+.modal-form-check:focus + .modal-form-descr-policy > .modal-form-check-descr::before {
 	outline: 1px solid #404bbf;
 }
 .modal-form-submit {

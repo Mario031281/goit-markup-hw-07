@@ -47,10 +47,11 @@
 	.descr-subtitle {
 		text-align: start;
 		font-size: 20px;
+		font-weight: 500;
 		margin-top: 8px;
 	}
 	.descr-text {
-		font-size: 16px;
+		font-weight: 400;
 	}
 	.descr-icon-link {
 		display: flex;
@@ -103,6 +104,19 @@
 		gap: 24px;
 		flex-basis: calc((100%-72px) / 4);
 	}
+	.customers {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	.our-team {
+		background-color: #f4f4fd;
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	.description {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
@@ -133,21 +147,13 @@
 	}
 
 	/* ===============our team=============== */
-	.our-team {
-		background-color: #f4f4fd;
-		padding-top: 120px;
-		padding-bottom: 120px;
-	}
+
 	.team-title {
 		color: var(--secondary-title-color);
 		/* margin-bottom: 72px; */
 	}
 
 	/* ================customers================ */
-	.customers {
-		padding-top: 120px;
-		padding-bottom: 120px;
-	}
 }
 .my-work {
 	padding-bottom: 120px;

@@ -214,8 +214,8 @@
 	.header {
 		padding-bottom: 22px;
 	}
-	.descr-text {
-		font-weight: 500;
+	.header-link.active::after {
+		bottom: -8px;
 	}
 }
 .footer-logo {
