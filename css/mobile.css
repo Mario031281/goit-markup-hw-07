@@ -291,9 +291,10 @@
 	align-content: space-around;
 	gap: 72px;
 	text-align: center;
+	justify-content: center;
 }
 .team-item {
-	margin: auto;
+	/* margin: 0 auto; */
 }
 .bottext {
 	padding: 32px 16px;
