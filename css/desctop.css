@@ -1,0 +1,164 @@
+@media screen and (min-width: 1200px) {
+	.container {
+		max-width: 1158px;
+	}
+	.header {
+		padding-bottom: 0;
+	}
+
+	.address-list {
+		display: flex;
+		align-items: center;
+		padding: 24px 0;
+	}
+	.address-mail {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+	}
+	.address-tel {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: #434455;
+	}
+	.hero {
+		padding-bottom: 188px;
+		padding-top: 188px;
+		max-width: 1440px;
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/desctopbg.jpg);
+	}
+	.hero-title {
+		margin-bottom: 48px;
+	}
+	.descr-list {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		flex-wrap: nowrap;
+		gap: 24px;
+	}
+	.descr-subtitle {
+		text-align: start;
+		font-size: 20px;
+		margin-top: 8px;
+	}
+	.descr-text {
+		font-size: 16px;
+	}
+	.descr-icon-link {
+		display: flex;
+		width: 264px;
+		height: 112px;
+		background: #f4f4fd;
+		border-radius: 4px;
+		justify-content: center;
+		align-items: center;
+	}
+	.descr-name-icon {
+		fill: var(--main-background-color);
+	}
+	.descr-list {
+		display: flex;
+		align-items: center;
+		gap: 24px;
+	}
+	.descr-item {
+		flex-basis: calc((100%-72px) / 4);
+	}
+	.footer {
+		padding: 100px 0;
+	}
+	.footer-container {
+		flex-wrap: nowrap;
+		width: 100%;
+	}
+	.footer-descr {
+		margin-right: 120px;
+	}
+	.footer-text {
+		max-width: 264px;
+	}
+	.subscribe-form {
+		margin-left: 80px;
+	}
+	.subscribe-field {
+		gap: 24px;
+	}
+	.subscribe-input {
+		width: 264px;
+		padding-left: 16px;
+	}
+	.team-list {
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 24px;
+		flex-basis: calc((100%-72px) / 4);
+	}
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+	screen and (min-resolution: 192dpi) and (min-width: 1200px),
+	screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+	.hero {
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/desctopbg@2x.jpg);
+	}
+}
+/* ================hero================ */
+
+/* ================descr================ */
+@media screen and (max-width: 1199px) {
+	.descr-icon-link {
+		display: none;
+	}
+	.my-work {
+		display: none;
+	}
+
+	/* ================Work=============== */
+	.my-work {
+		padding-bottom: 120px;
+	}
+	.work-title {
+		color: var(--secondary-title-color);
+		margin-bottom: 72px;
+	}
+
+	/* ===============our team=============== */
+	.our-team {
+		background-color: #f4f4fd;
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	.team-title {
+		color: var(--secondary-title-color);
+		/* margin-bottom: 72px; */
+	}
+
+	/* ================customers================ */
+	.customers {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+}
+.my-work {
+	padding-bottom: 120px;
+}
+.work-title {
+	color: var(--secondary-title-color);
+	margin-bottom: 72px;
+}
+.work-list {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+	flex-basis: calc((100%-48px) / 3);
+}
+
+/* ================footer================ */

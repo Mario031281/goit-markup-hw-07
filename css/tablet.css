@@ -1,0 +1,209 @@
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 766px;
+	}
+	.mobile-menu {
+		display: none;
+	}
+	.mobile-menu-open {
+		display: none;
+	}
+	/* ================header================ */
+	.page-header-container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.header {
+		border-bottom: 1px solid #e7e9fc;
+	}
+	.studio-header {
+		border-bottom: 1px solid #e7e9fc;
+	}
+	.header-navigation {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.logo {
+		font-family: "Raleway", sans-serif;
+		font-style: normal;
+		font-weight: 800;
+		font-size: 18px;
+		line-height: 1.33;
+		/* display: flex; */
+		align-items: center;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		color: #4d5ae5;
+	}
+	.logo-hed {
+		margin-right: 76px;
+	}
+	.logo-studio {
+		color: #2e2f42;
+	}
+	.header-list {
+		display: flex;
+		align-items: center;
+	}
+	.header-item:not(:last-child) {
+		margin-right: 40px;
+	}
+	.header-link {
+		position: relative;
+		font-weight: 500;
+		font-size: 16px;
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+		color: #2e2f42;
+		padding: 24px 0;
+		transition: color var(--transition-duration-and-func);
+	}
+	.header-link:hover,
+	.header-link:focus {
+		color: var(--accent-color);
+	}
+	.header-link.active {
+		color: var(--accent-color);
+	}
+	.header-link.active::after {
+		content: "";
+		display: block;
+		width: 100%;
+		height: 4px;
+		background-color: #404bbf;
+		border-radius: 2px;
+		position: absolute;
+		left: 0;
+		bottom: -3px;
+	}
+	.address-list {
+		/* align-items: center; */
+		/* padding: 24px 0; */
+	}
+	.address-item {
+	}
+	.address-mail {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 1.17;
+		letter-spacing: 0.04em;
+		color: #434455;
+		margin-right: 40px;
+		margin-bottom: 12px;
+		transition: color var(--transition-duration-and-func);
+	}
+	.address-mail:hover,
+	.address-mail:focus {
+		color: var(--accent-color);
+	}
+	.address-tel {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 1.17;
+		letter-spacing: 0.04em;
+		color: #434455;
+		transition: color var(--transition-duration-and-func);
+	}
+	.address-tel:hover,
+	.address-tel:focus {
+		color: var(--accent-color);
+	}
+	.hero {
+		padding-bottom: 112px;
+		padding-top: 112px;
+		max-width: 766px;
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tabletbg.jpg);
+	}
+	.hero-title {
+		font-weight: 700;
+		font-size: 56px;
+		line-height: 1.07;
+		text-align: center;
+		letter-spacing: 0.02em;
+		color: var(--main-title-color);
+		max-width: 496px;
+		margin-bottom: 36px;
+	}
+	.team-list {
+		flex-wrap: wrap;
+	}
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+	screen and (min-resolution: 192dpi) and (min-width: 768px),
+	screen and (min-resolution: 2dppx) and (min-width: 768px) {
+	.hero {
+		background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tabletbg@2x.jpg);
+	}
+}
+/* ================hero================ */
+
+/* ================descr================ */
+
+@media screen and (min-width: 768px) {
+	.descr-list {
+		flex-direction: row;
+		justify-content: space-between;
+		gap: 72px 24px;
+	}
+	.descr-item {
+		width: calc((100% - 24px) / 2);
+	}
+	.descr-title {
+		text-align: left;
+	}
+	/* ===============Our team================ */
+	.team-list {
+		display: flex;
+		flex-direction: row;
+		row-gap: 24px;
+		column-gap: 64px;
+		flex-basis: calc((100%-24px) / 2);
+	}
+	.footer-descr {
+		text-align: start;
+		margin-right: 24px;
+		align-items: start;
+	}
+	.footer-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 578px;
+	}
+	.footer-social {
+		text-align: start;
+		margin-top: 0;
+	}
+	.footer-text {
+		text-align: start;
+	}
+	.subscribe-text-footer {
+		text-align: start;
+	}
+	.subscribe-input {
+		margin-right: 24px;
+		width: 264px;
+	}
+	.subscribe-field {
+		flex-direction: row;
+	}
+}
+/* ================customers================ */
+.customers-list {
+	column-gap: 24px;
+}
+/* ================footer================ */
+
+.footer-descr {
+	margin-right: 24px;
+	align-items: start;
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+	.header {
+		padding-bottom: 22px;
+	}
+}
